@@ -1,0 +1,64 @@
+html{
+    color: #090909;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #E2E2E2;
+}
+body{
+    margin: 0;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+}
+.input_name{
+    border-radius: 10px;
+    border: 3px solid #4E4E4E;
+    background: #E3E3E3;
+    padding: 7px;
+    width: 371px;
+}
+.header {
+    justify-content: center;
+    display: flex;
+    background-color: #403F85;
+    height: 115px;
+}
+.wrapper {
+    top: 0;
+    background: #FFF;
+    width: 651px;
+    position: absolute;
+    padding: 20px;
+}
+.content {
+    justify-content: center;
+    display: flex;
+    background-color: #FFF;
+}
+.result{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+ul input{
+    margin: 14px 10px 10px -15px;
+}
+ul li{
+    padding-top: 22px;
+}
+
+table, th, td {
+    text-align: center;
+    width: 100%;
+    border: 1px solid #FFF ;
+    background: #E0E0E0;
+}
+table th, td{
+    padding: 8px;
+}
+
