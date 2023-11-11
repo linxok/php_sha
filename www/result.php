@@ -2,7 +2,8 @@
 require_once 'db_connect.php';
 $request = ($_POST);
 if (strlen($request['name']) >0) {
-    $name = htmlspecialchars($request['name'],ENT_QUOTES,'UTF-8');
+//    $name = htmlspecialchars($request['name'],ENT_QUOTES,'UTF-8');
+    $name = $request['name'];
 
     unset($request['name']);
 
