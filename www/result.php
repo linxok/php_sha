@@ -1,8 +1,9 @@
 <?php
 require_once 'db_connect.php';
-$request = $_POST;
+$request = ($_POST);
 if (strlen($request['name']) >0) {
-    $name = $request['name'];
+    $name = htmlspecialchars($request['name'],ENT_QUOTES,'UTF-8');
+
     unset($request['name']);
 
     $total = 0;
