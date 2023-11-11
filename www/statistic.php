@@ -84,7 +84,7 @@ function array_sort($array, $on, $order = SORT_ASC)
                 <?php
                 foreach ($items as $item) { ?>
                     <tr class="row">
-                        <td><?php echo $item['name'] ?></td>
+                        <td><?php echo htmlspecialchars($item['name']) ?></td>
                         <td><?php echo $item['total'] ?></td>
                         <td><?php echo $item['corect'] ?></td>
                         <td><?php echo $item['incorect'] ?></td>
