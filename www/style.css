@@ -44,6 +44,14 @@ body{
     font-weight: 600;
     margin-left: 20px;
 }
+.submit{
+    border-radius: 10px;
+    border: 0px solid #000;
+    background: #4D58BE;
+    width: 200px;
+    height: 50px;
+    color: #E2E2E2;
+}
 
 ul input{
     margin: 14px 10px 10px -15px;
